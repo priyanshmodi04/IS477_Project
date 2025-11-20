@@ -3,215 +3,188 @@
 **Course:** IS 477 Team Project  
 **Team Members:** Priyansh Modi and Shivam Patel  
 
-
+---
 
 ## Project Overview
 
-This team project attempts to understand the relationship between weather and on-field performance for NCAA football games across the United States. By combining statistics from the CollegeFootballData API with Open-Meteo historical weather information, we assess how temperature (relative and actual), wind speed, and precipitation impact points, turnovers, and yardage (i.e., offensive/defensive success).
+This team project attempts to understand the relationship between weather and on-field performance for NCAA football games across the United States. By combining statistics from the CollegeFootballData API with Open-Meteo historical weather information, we assess how temperature, wind speed, and precipitation impact points, turnovers, and yardage (i.e., offensive/defensive success).
 
-The project follows a full data lifecycle (acquisition, storage, integration, quality control, analysis, and reproducibility). This report summarizes the status of each planned task, provides an updated timeline, documents revisions to the plan, and describes what each team member has contributed so far.
+The project follows a full data lifecycle (acquisition, storage, integration, quality control, analysis, reproducibility). This report summarizes the status of each planned task, provides an updated timeline, documents revisions to the plan, and describes what each team member has contributed so far.
 
-
+---
 
 ## Status by Task (Compared to Planned Schedule)
 
 ### Week 1–2: Lifecycle, Research Questions, and Data Acquisition
 
-We chose to work within the **Data Curation Lifecycle** model and documented our application of it in a short design document. Our research questions, ethics considerations, and usage notes for both APIs are documented in the project plan.
+We chose to work within the **Data Curation Lifecycle** model and documented our application of it. Our research questions, ethics considerations, and API usage notes are in the project plan.
 
-We implemented a Python script to acquire game data and stadium location information from the CollegeFootballData API, and to sample weather data from the Open-Meteo API. Responses are stored in a `data/raw` directory, and we created short notes describing which endpoint we used for each component.  
+We implemented a Python script (`data.py`) that now handles all acquisition tasks:
 
+- `fetch_games()` retrieves game info  
+- `fetch_venues()` retrieves stadium coordinates  
+- `merge_games_with_venues()` joins games and venues  
+- `fetch_weather()` retrieves hourly weather  
+- `get_weather_for_game()` finds nearest weather to kickoff  
+- `merge_all_weather()` attaches weather to each game  
 
+Responses are stored in `data/` and the script automatically outputs a combined CSV (`games_with_weather.csv`).
 
+**Status:** Completed.
 
+---
 
 ### Week 3: Storage, Organization, and Feature Extraction
 
-We defined a storage model with **raw / intermediate / final** folders and established the repository naming conventions. This directory structure and naming scheme are documented in the repo.
+We defined the storage model with **raw / intermediate / final** folders and documented naming conventions.
 
-Feature-extraction scripts pull together the primary football variables (result, yards gained/lost, turnovers) and primary weather variables:
+With the updated script, feature extraction is simpler and now handled directly inside `data.py` using:
 
-- Temperature (nominal and ordinal)
-- Wind speed and duration
-- Precipitation (nominal days without rain, ordinal days with mild vs. heavy rain)
+- Cleaned game-level variables (team names, points, start time)
+- Latitude/longitude via venue merge
+- Hourly temperature, precipitation, and wind speed pulled from Open-Meteo
 
-These are stored in concise CSVs. A merged file was also created that provides latitude/longitude locations for each game for use in later joins.
+A merged dataset is automatically produced once the script runs end-to-end.
 
-**Status:** Mostly completed (feature definitions may still be refined).
+**Status:** Mostly completed.
 
-
+---
 
 ### Week 4: Integration and Provenance
 
-We created an integration script that joins the game and weather feature tables using stadium and date to create a new table that includes both types of variables. We began testing the joins in a Jupyter notebook by checking games across different regions and months to see if the assigned weather values make sense.
+The new script provides a cleaner integration workflow using:
 
-We also started an integration log that records:
+- `merge_games_with_venues()` for coordinates  
+- `merge_all_weather()` to attach nearest hourly weather values
 
-- Which files were used for integration  
-- The integration script version  
-- The keys through which tables were joined  
+We validated joins in a Jupyter notebook by inspecting games from different regions and checking the weather readings for correctness.
 
-The integration currently works end-to-end, with two caveats:
+We also started an integration log summarizing:
 
-1. We still need to quantify the percentage of successful matches.  
-2. We need to clearly document what we will do in cases where games do not have accompanying weather data.
+- Input files  
+- Script behavior and version  
+- Join keys (venue + date)  
 
-A CSV file has also been created to guide handling of missing values.
+We still need to finish checking the percentage of games missing weather or coordinates and document how those will be handled.
 
 **Status:** In progress.
 
-
+---
 
 ### Week 5: Quality and Cleaning
 
-We performed preliminary data-quality checks in an additional Jupyter notebook. This notebook tracks key variables (e.g., game points, turnovers) and summarizes their missingness levels for use in our eventual data-quality report. It also flags obvious outliers (for example, temperatures outside a realistic range or implausible scores).
+Preliminary data-quality checks were run in a notebook. These checks recorded missingness in:
 
-We will use this as a draft for a more formal quality report that documents:
+- Home/away points  
+- Turnovers (if added later)  
+- Weather variables (temperature, precipitation, wind_speed)
 
-- Variables’ missingness levels  
-- Outliers and how they were identified  
-- Decisions on whether to drop or adjust problematic records  
+A draft quality report was started. Some weather readings may be missing due to API gaps or stadiums with no coordinates.
 
-From here, we need to establish a consistent approach for filling in or disregarding incomplete weather information and then apply that approach to our final analysis table.
+Next steps include finalizing rules for dealing with incomplete weather records and applying them before modeling.
 
 **Status:** Partially completed.
 
-
+---
 
 ### Week 6: Pre-Analysis, Exploratory Analysis, and Automation
 
-We started exploratory analysis with scatterplots and simple summaries linking weather to performance metrics, such as:
+We began exploratory analysis with scatterplots comparing weather and performance metrics, such as temperature vs. total points and wind speed vs. turnovers.
 
-- Temperature vs. total points per game  
-- Wind speed vs. turnovers per game  
+A reusable module structure was started so loading and cleaning functions from `data.py` can be reused across notebooks.
 
-We also created a small module to reuse loading and transformation functions across notebooks and scripts.
+A basic pipeline was also started inside `data.py` (running end-to-end under `if __name__ == '__main__':`) so that one command reproduces:
 
-In addition, we began writing a single script that chains the feature extraction and integration steps so that the core pipeline can be run more easily. At this point, it is still more of a linear script than a full workflow engine, but it sets up the foundation for automation.
+1. Game acquisition  
+2. Venue acquisition  
+3. Merging  
+4. Weather retrieval  
+5. Exporting a final CSV  
 
-Next steps include:
-
-- Extending automation to cover more of the lifecycle  
-- Implementing more advanced analyses (e.g., regression models)
+Next steps include finishing the automation layer and running regression models.
 
 **Status:** In progress.
 
-
+---
 
 ### Weeks 7–9: Pending Work
 
 Remaining work includes:
 
-- Finalizing cleaning and data-quality decisions  
-- Running and interpreting correlation and regression models  
-- Creating clearer reproducibility through setup notes, a `requirements` file, and possibly a workflow engine  
-- Writing the final report and data dictionary  
-- Packaging visualizations  
-- Publishing a tagged final release  
+- Final cleaning steps  
+- Correlation and regression modeling  
+- More robust reproducibility (requirements file, clearer instructions)  
+- Final report and data dictionary  
+- Visualizations  
+- Tagged release  
 
 **Status:** Planned.
 
+---
 
 ## Updated Project Timeline and Task Progress
 
-Below is our updated view of key tasks, their current status, and anticipated completion:
+- **Lifecycle model + research questions:** Completed (Week 1)  
+- **Acquire CollegeFootballData games/venues:** Completed (Week 2)  
+- **Acquire Open-Meteo weather:** Completed using `data.py` (Week 3, refinements ongoing)  
+- **Determine storage model:** Completed (Week 3)  
+- **Extract football + weather features:** First draft complete, updated via `data.py`  
+- **Join game + weather data:** Running end-to-end; validation ongoing  
+- **Data quality assessment:** First pass done; final cleaning due Week 7  
+- **Exploratory analysis:** In progress (Weeks 6–7)  
+- **Pipeline + reproducibility:** Started inside `data.py`; expanding in Weeks 7–8  
+- **Regression modeling:** Planned Weeks 8–9  
+- **Final documentation, README, dictionary, release:** Week 9  
 
-- **Lifecycle model and research questions**  
-  - Status: Completed  
-  - Target: Week 1  
-
-- **Acquire CollegeFootballData games and venues**  
-  - Status: Completed  
-  - Target: End of Week 2  
-
-- **Acquire Open-Meteo weather data**  
-  - Status: Core functionality completed; small adjustments ongoing  
-  - Target: Completed by Week 3, refinements through Week 6  
-
-- **Determine storage model and directory structure**  
-  - Status: Completed  
-  - Target: End of Week 3  
-
-- **Extract relevant football and weather features**  
-  - Status: First draft completed; fine-tuning ongoing  
-  - Target: Draft by Week 3, refinements by Week 6  
-
-- **Join game and weather data**  
-  - Status: Running; validation and documentation in progress  
-  - Target: End of Week 6  
-
-- **Data quality assessment and cleaning**  
-  - Status: First pass completed; final remediation plan pending  
-  - Target: Remediated dataset by end of Week 7  
-
-- **Exploratory analysis and minimal visualizations**  
-  - Status: Ongoing  
-  - Target: Weeks 6–7  
-
-- **Pipeline and further reproducibility metadata**  
-  - Status: Script started; automation expanding  
-  - Target: Weeks 7–8  
-
-- **Regression modeling and interpretation**  
-  - Status: Not started  
-  - Target: Weeks 8–9  
-
-- **Final README, requirements file, data dictionary, and final report**  
-  - Status: Not started  
-  - Target: Week 9 (with final tagging and release)
-
+---
 
 ## Changes to the Project Plan
 
-Since our Milestone 2 submission, we have made several changes based on instructor feedback and our assessment of the data.
-
 ### Scope Adjustments
 
-- We limited our analysis to a more manageable subset of **recent seasons** instead of acquiring every historical season. This helps with:
-  - Integration (fewer edge cases and structural changes)
-  - Data quality (more consistent records)
-  - API usage (fewer and more targeted requests)
+We limited the dataset to recent seasons to reduce inconsistencies and simplify integration.  
+The main weather predictors remain: **temperature, wind speed, precipitation**.  
+Secondary predictors (like humidity) will only be explored descriptively.
 
-- We narrowed our **main weather predictors** to:
-  - Temperature  
-  - Wind speed  
-  - Precipitation  
+### Methodology Adjustments
 
-Humidity and other secondary variables will still be examined descriptively but will not be treated as core predictors in the first round of modeling.
+We clarified that the **unit of analysis is the game**, not the play. All weather is aggregated to game-level using nearest-hour matching from the API.
 
-### Methodological Clarifications
+Region vs. team performance is confounded, so team strength (win percentage or scoring margin) will be used to adjust comparisons. Region will be secondary.
 
-- The **unit of analysis** is the **game**, not individual plays. All weather variables are aggregated to the game level, which is more compatible with our data sources and the scope of the course.
-- We acknowledge that **region and performance are confounded**. Rather than treating “cold vs. warm region” as the main variable of interest, we plan to:
-  - Use simple proxies for team strength (e.g., win percentage or scoring margin).  
-  - Treat region as a secondary explanatory or stratification variable.
+### Reproducibility Improvements
 
-### Reproducibility and Automation
+The updated `data.py` script now:
 
-We expanded the replicability and automation aspects of the project:
+- Automatically fetches all data  
+- Performs all merging  
+- Retrieves hourly weather  
+- Produces a final combined CSV  
 
-- We started a pipeline script that links multiple steps together, making it easier to rerun the process from raw data to integrated tables.
-- We began sketching a simple workflow diagram that will be turned into a figure for our documentation.
-- Time permitting, we may adopt a more formal workflow tool, but even if we stay with Python scripts, our goal is a clear, well-documented path from raw data to analysis-ready files and visualizations.
+A workflow diagram will be added soon. A more formal workflow tool may be added if time permits.
 
+---
 
 ## Individual Contributions for This Milestone
 
-### Priyansh Modi
+### **Priyansh Modi**
 
-main contributions involved **data collection, storage, and integration**:
+ focused on **data acquisition, storage structure, and integration**:
 
-- Implemented and refined the CollegeFootballData and Open-Meteo API scripts, including handling parameters and rate limits.
-- Established the raw vs. intermediate storage layout and helped define the directory structure and file naming conventions.
-- Led development of the integration script that merges game statistics with weather summaries.
-- Started the pipeline script that links individual steps into a more repeatable process.
+- Implemented all new API calls inside `data.py`  
+- Handled API parameters, rate limits, and merging  
+- Built the full end-to-end script that outputs `games_with_weather.csv`  
+- Set up the directory structure and file organization  
+- Started the automation pipeline and integration documentation  
 
-### Shivam Patel
+### **Shivam Patel**
 
-main contributions involved **feature selection, validation, exploratory analysis, and documentation**:
+ focused on **feature selection, validation, EDA, and documentation**:
 
-- Wrote and refined selection scripts that determine key football variables (e.g., turnovers, total score) and weather variables (e.g., temperature, precipitation), including some derived values.
-- Constructed an early version of the integrated tables and validated the joined dataset using Jupyter notebooks to check that weather values made sense for sampled games.
-- Led the initial data-quality checks and drafted the written quality report.
-- Started exploratory visualizations connecting weather to total scoring and turnovers per game, and drafted the written materials for this milestone.
+- Reviewed and validated the merged dataset produced by `data.py`  
+- Ran data-quality checks and drafted the quality report  
+- Created early exploratory plots (weather vs scoring/turnovers)  
+- Helped test weather-match accuracy (nearest-hour logic)  
+- Wrote and organized most of the milestone documentation  
 
+---
