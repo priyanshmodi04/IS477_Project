@@ -1,0 +1,345 @@
+game_id,season,week,start_time,venue,home_team,away_team,home_points,away_points,city,state,latitude,longitude,temperature,precipitation,wind_speed
+401525434,2023,1,2023-08-26T18:30:00.000Z,Aviva Stadium,Notre Dame,Navy,42,3,Dublin,,53.33523,-6.228447,15.4,0.1,13.4
+401540199,2023,1,2023-08-26T19:30:00.000Z,Cramton Bowl,Mercer,North Alabama,17,7,Montgomery,AL,32.37949,-86.293002,37.8,0.0,13.0
+401520145,2023,1,2023-08-26T21:30:00.000Z,AmFirst Stadium,Jacksonville State,UTEP,17,14,Jacksonville,AL,33.8201052,-85.76647,37.3,0.0,6.8
+401540628,2023,1,2023-08-26T23:00:00.000Z,Bob Ford Field,UAlbany,Fordham,34,13,Albany,NY,42.6808062,-73.8272841,22.9,0.0,9.2
+401532392,2023,1,2023-08-26T23:00:00.000Z,Snapdragon Stadium,San Diego State,Ohio,20,13,San Diego,CA,32.784444,-117.122833,24.7,0.0,19.1
+401525450,2023,1,2023-08-26T23:00:00.000Z,Aggie Memorial Stadium,New Mexico State,Massachusetts,30,41,Las Cruces,NM,32.2796202,-106.7411148,33.6,0.0,14.3
+401539999,2023,1,2023-08-26T23:30:00.000Z,Center Parc Stadium,Jackson State,South Carolina State,37,7,Atlanta,GA,33.735267,-84.389949,33.5,0.0,6.0
+401520147,2023,1,2023-08-26T23:30:00.000Z,FirstBank Stadium,Vanderbilt,Hawai'i,35,28,Nashville,TN,36.1440455,-86.8088942,32.9,0.1,13.7
+401523986,2023,1,2023-08-27T00:00:00.000Z,Los Angeles Memorial Coliseum,USC,San José State,56,28,Los Angeles,CA,34.014167,-118.287778,25.6,0.0,16.9
+401520146,2023,1,2023-08-27T01:00:00.000Z,Joe Aillet Stadium,Louisiana Tech,Florida International,22,17,Ruston,LA,32.5321487,-92.6560019,32.9,0.0,5.9
+401540527,2023,1,2023-08-31T04:00:00.000Z,Jayne Stadium,Morehead State,West Virginia State,37,35,Morehead,KY,38.1916481,-83.4253315,16.9,0.0,14.5
+401540244,2023,1,2023-08-31T04:00:00.000Z,Provost Umphrey Stadium,Lamar,Idaho,17,42,Beaumont,TX,30.04313,-94.069963,28.1,0.0,11.0
+401540288,2023,1,2023-08-31T04:00:00.000Z,Memorial Stadium (Commerce TX),East Texas A&M,UC Davis,10,48,Commerce,TX,33.2442615,-95.9006353,28.7,0.0,11.3
+401545743,2023,1,2023-08-31T04:00:00.000Z,Ralph F. DellaCamera Stadium,New Haven,Frostburg State,24,27,West Haven,CT,41.2706527,-72.9470471,19.8,0.0,17.7
+401540607,2023,1,2023-08-31T04:00:00.000Z,Fifth Third Stadium,Kennesaw State,Greeneville,38,7,Kennesaw,GA,34.0289318,-84.5676234,21.1,0.0,9.8
+401550265,2023,1,2023-08-31T04:00:00.000Z,Charles A. Henry Field,Hiram College,Heidelberg,14,68,Hiram,OH,41.312555,-81.14371,13.8,0.0,9.5
+401553950,2023,1,2023-08-31T18:00:00.000Z,Hantz Stadium,Northwood (MI),Glenville State,9,44,Midland,MI,43.6155825,-84.2472117,20.7,0.0,2.6
+401540470,2023,1,2023-08-31T22:00:00.000Z,Buccaneer Field,Charleston Southern,North Greenville,13,10,North Charleston,SC,32.9810239,-80.0659664,27.7,0.0,12.6
+401549697,2023,1,2023-08-31T22:00:00.000Z,Keiser Multi-Purpose Field,Keiser University,Mississippi College,14,17,West Palm Beach,FL,,,,,
+401540802,2023,1,2023-08-31T22:00:00.000Z,Harvey Randall Wickes Memorial Stadium,Saginaw Valley State,Winona State,34,24,University Center,MI,25.71414555,-80.27640498387049,30.2,0.8,11.6
+401544917,2023,1,2023-08-31T22:00:00.000Z,Irwin Belk Stadium,Wingate,Albany State GA,30,7,Wingate,NC,34.9843176,-80.4492319,26.7,0.0,6.5
+401550193,2023,1,2023-08-31T22:00:00.000Z,Richard Wackar Stadium,Rowan,Stevenson,17,20,Glassboro,NJ,39.7027677,-75.1119434,25.9,0.0,13.5
+401540990,2023,1,2023-08-31T22:00:00.000Z,Grace P. Johnson Stadium,UNC Pembroke,Fayetteville State,19,17,Pembroke,NC,34.6801627,-79.1950373,26.7,0.0,11.6
+401545860,2023,1,2023-08-31T22:00:00.000Z,Multi-Sport Performance Stadium,Alderson-Broaddus,PennWest California,0,0,Philippi,WV,39.1523198,-80.0403578,21.7,0.0,8.6
+401541838,2023,1,2023-08-31T22:00:00.000Z,Electric Supply Company Field,Wilson,Chowan,41,0,Wilson,NC,35.7212689,-77.9155395,26.0,0.0,14.3
+401541949,2023,1,2023-08-31T23:00:00.000Z,Gable Field at Doc Wadley Stadium,Northeastern State,Fort Hays State,0,56,Tahlequah,OK,35.91537,-94.969956,31.6,0.0,9.5
+401550240,2023,1,2023-08-31T23:00:00.000Z,Taylor Field,Lakeland,Wisconsin-Platteville,13,80,Plymouth,WI,43.7486054,-87.977038,18.8,0.0,10.7
+401545835,2023,1,2023-08-31T23:00:00.000Z,"Memorial Stadium (Wayne, NE)",Wayne State (NE),Minnesota State Moorhead,31,23,Wayne,NE,42.1941294,-97.169623,28.2,0.0,31.4
+401547053,2023,1,2023-08-31T23:00:00.000Z,Alumni Stadium (KY),Kentucky State,Clark Atlanta,34,20,Frankfort,KY,38.2009055,-84.8732836,25.4,0.0,11.9
+401541855,2023,1,2023-08-31T23:00:00.000Z,Seibert Stadium,Samford,Shorter,69,14,Homewood,AL,33.463273,-86.795326,28.9,0.0,8.7
+401545791,2023,1,2023-08-31T23:00:00.000Z,Chryst Field at Biemesderfer Stadium,Millersville,St. Anselm,33,7,Millersville,PA,39.997998,-76.3545372,23.0,0.0,13.0
+401541881,2023,1,2023-08-31T23:00:00.000Z,University Stadium (GA),West Georgia,Limestone,21,19,Carrollton,GA,33.5801103,-85.0766113,29.8,0.0,4.4
+401541012,2023,1,2023-08-31T23:00:00.000Z,University of Charleston Stadium,University Of Charleston (WV),Gannon,22,13,Charleston,WV,38.3505995,-81.6332812,22.2,0.0,6.9
+401541833,2023,1,2023-08-31T23:00:00.000Z,Tom Benson Hall of Fame Stadium,Walsh,West Liberty,24,21,Canton,OH,40.7985464,-81.3749508,21.5,0.0,10.8
+401531834,2023,1,2023-08-31T23:00:00.000Z,Center Parc Stadium,Georgia State,Rhode Island,42,35,Atlanta,GA,33.735267,-84.389949,28.3,0.0,7.7
+401540311,2023,1,2023-08-31T23:00:00.000Z,Barker-Lane Stadium,Campbell,William & Mary,24,34,Buies Creek,NC,35.4047689,-78.7424842,24.7,0.0,7.9
+401540534,2023,1,2023-08-31T23:00:00.000Z,Paladin Stadium,Furman,Tennessee Tech,45,10,Greenville,SC,34.920192,-82.4370917,26.1,0.0,8.7
+401525816,2023,1,2023-08-31T23:00:00.000Z,FBC Mortgage Stadium,UCF,Kent State,56,6,Orlando,FL,28.6079765,-81.1927233,26.7,0.2,4.4
+401525461,2023,1,2023-08-31T23:00:00.000Z,Allegacy Federal Credit Union Stadium,Wake Forest,Elon,37,17,Winston-Salem,NC,36.1305507,-80.2545851,24.4,0.0,7.9
+401541801,2023,1,2023-08-31T23:00:00.000Z,George P. Miller Stadium,Indiana-Pennsylvania,Ashland,24,17,Indiana,PA,40.6214551,-79.1525349,19.3,0.0,9.5
+401541033,2023,1,2023-08-31T23:00:00.000Z,Burke-Tarr Stadium,Carson-Newman College,Virginia University Of Lynchburg,35,3,Jefferson City,TN,36.122311,-83.4923961,24.8,0.0,8.6
+401545810,2023,1,2023-08-31T23:00:00.000Z,Chet Anderson Stadium,Bemidji State,Northern State,49,13,Bemidji,MN,47.4785418,-94.8907869,25.8,0.0,21.2
+401545751,2023,1,2023-08-31T23:00:00.000Z,QU Stadium,Quincy,Chadron St,34,35,Quincy,IL,39.9356016,-91.4098727,23.8,0.0,9.2
+401558399,2023,1,2023-08-31T23:00:00.000Z,Wildcat Field,Louisiana College,East Texas Baptist University,34,14,Pineville,LA,31.3224044,-92.4343035,34.1,0.0,14.0
+401545779,2023,1,2023-08-31T23:00:00.000Z,Bishop Schmitt Field,Wheeling,Seton Hill,35,24,Wheeling,WV,40.0639616,-80.7209149,22.9,0.0,8.4
+401541751,2023,1,2023-08-31T23:00:00.000Z,Southern Nazarene University Football Stadium,Southern Nazarene,Harding University,20,53,Bethany,OK,35.5186728,-97.6322648,32.5,0.0,12.4
+401540775,2023,1,2023-08-31T23:00:00.000Z,Ranger Field,Northwestern Oklahoma State,Arkansas-Monticello,24,49,Alva,OK,36.8030501,-98.6660278,32.1,0.0,16.0
+401540728,2023,1,2023-08-31T23:00:00.000Z,Allgood-Bailey Stadium,Missouri S&T,Delta State,20,48,Rolla,MO,37.95037,-91.780444,24.5,0.0,8.9
+401541872,2023,1,2023-08-31T23:00:00.000Z,Tiger Stadium (AL),West Alabama,Angelo State,14,38,Livingston,AL,32.5843026,-88.1872474,32.1,0.0,7.9
+401541787,2023,1,2023-08-31T23:00:00.000Z,Wilkins Stadium,Southern Arkansas,Southeastern Oklahoma State,34,19,Magnolia,AR,33.2670725,-93.2393341,31.2,0.0,10.6
+401541001,2023,1,2023-08-31T23:00:00.000Z,Duvall-Rosier Field,Fairmont State,Bloomsburg,34,30,Fairmont,WV,39.4850848,-80.1425781,20.7,0.0,8.5
+401540794,2023,1,2023-08-31T23:00:00.000Z,James S. Malosky Stadium,Minnesota Duluth,Northern Michigan,47,10,Duluth,MN,46.7729322,-92.1251218,22.2,0.0,9.8
+401554814,2023,1,2023-08-31T23:00:00.000Z,Coyer Field,Buffalo State,Brockport,6,42,Buffalo,NY,42.8867166,-78.8783922,19.4,0.0,4.1
+401532393,2023,1,2023-08-31T23:00:00.000Z,Waldo Stadium,Western Michigan,St. Francis (PA),35,17,Kalamazoo,MI,42.2860064,-85.6007573,21.9,0.0,3.2
+401541782,2023,1,2023-08-31T23:00:00.000Z,Milam Stadium,Southwestern Oklahoma State,Ouachita Baptist,14,38,Weatherford,OK,35.5261633,-98.7075744,33.2,0.0,11.7
+401545847,2023,1,2023-08-31T23:00:00.000Z,Herb Parker Stadium,Minot State,Southwest Minnesota State,23,28,Minot,ND,48.23251,-101.296273,27.5,0.0,27.7
+401550360,2023,1,2023-08-31T23:00:00.000Z,Belhaven Bowl Stadium,Belhaven,Millsaps,47,7,Jackson,MS,32.2990021,-90.1847691,31.7,0.0,8.4
+401540323,2023,1,2023-08-31T23:00:00.000Z,Kenneth P. LaValle Stadium,Stony Brook,Delaware,13,37,Stony Brook,NY,40.9188829,-73.1242966,21.9,0.0,12.2
+401540299,2023,1,2023-08-31T23:00:00.000Z,Memorial Stadium,Indiana State,Eastern Illinois,0,27,Terre Haute,IN,39.4746858,-87.3669599,23.9,0.0,9.7
+401540299,2023,1,2023-08-31T23:00:00.000Z,Memorial Stadium,Indiana State,Eastern Illinois,0,27,Lawrence,KS,38.9629418,-95.2463686,29.3,0.0,12.0
+401540299,2023,1,2023-08-31T23:00:00.000Z,Memorial Stadium,Indiana State,Eastern Illinois,0,27,Columbia,MO,38.9358491,-92.3332009,25.9,0.0,8.9
+401545842,2023,1,2023-08-31T23:00:00.000Z,Bob Young Field,Sioux Falls,Minnesota State Mankato,26,54,Sioux Falls,SD,43.5488256,-96.7307737,27.6,0.0,30.3
+401547175,2023,1,2023-08-31T23:00:00.000Z,War Memorial Stadium (AR),McMurry,Birmingham-Southern,19,20,Little Rock,AR,34.749848,-92.330127,27.8,0.0,12.7
+401545869,2023,1,2023-08-31T23:00:00.000Z,Lincoln University Stadium,Lincoln (PA),Clarion,20,30,Lincoln University,PA,39.8065518,-75.92870551247694,23.5,0.0,11.3
+401551497,2023,1,2023-08-31T23:05:00.000Z,Eiler-Martin Stadium,East Stroudsburg University,Pace,62,9,East Stroudsburg,PA,40.9995386,-75.1812913,20.2,0.0,12.1
+401540451,2023,1,2023-08-31T23:30:00.000Z,Stambaugh Stadium,Youngstown State,Valparaiso,52,10,Youngstown,OH,41.1092964,-80.6501885,20.1,0.0,13.0
+401520174,2023,1,2023-08-31T23:30:00.000Z,Pratt & Whitney Stadium,UConn,NC State,14,24,East Hartford,CT,41.7595675,-72.6187728,20.1,0.0,9.5
+401549695,2023,1,2023-08-31T23:30:00.000Z,Top Taggart Field,Ferris State,Mercyhurst,54,12,Big Rapids,MI,43.698078,-85.483656,20.9,0.0,5.6
+401545819,2023,1,2023-08-31T23:30:00.000Z,Sea Foam Stadium,Concordia University St Paul,Upper Iowa University,43,20,Saint Paul,MN,44.9497487,-93.0931028,25.9,0.0,20.3
+401541984,2023,1,2023-09-01T00:00:00.000Z,Carnie Smith Stadium,Pittsburg St,Washburn,34,7,Pittsburg,KS,37.4108841,-94.70496,28.0,0.0,9.8
+401550428,2023,1,2023-09-01T00:00:00.000Z,Hunter Stadium,Lindenwood,Wisconsin-Stevens Pt,77,9,Saint Charles,MO,38.7946252,-90.519829,22.8,0.0,5.5
+401541928,2023,1,2023-09-01T00:00:00.000Z,Craig Field at Spratt Memorial Stadium,Missouri Western,Central Missouri,38,45,Saint Joseph,MO,39.7686055,-94.8466322,24.2,0.0,12.4
+401550414,2023,1,2023-09-01T00:00:00.000Z,Trojan Stadium,Dakota State University,Wisconsin-Lacrosse,6,31,Madison,SD,44.006085,-97.11395,26.1,0.0,24.4
+401540463,2023,1,2023-09-01T00:00:00.000Z,Dana J. Dykhouse Stadium,South Dakota State,Western Oregon,45,7,Brookings,SD,44.3210182,-96.7801386,26.0,0.0,25.1
+401540745,2023,1,2023-09-01T00:00:00.000Z,Marv Kay Stadium at Campbell Field,Colorado School Of Mines,Grand Valley State University,31,28,Golden,CO,39.7546349,-105.2205809,30.5,0.0,1.8
+401541939,2023,1,2023-09-01T00:00:00.000Z,Wantland Stadium,Central Oklahoma,Nebraska-Kearney,24,21,Edmond,OK,35.6571367,-97.4649038,31.0,0.0,10.2
+401544875,2023,1,2023-09-01T00:00:00.000Z,Francis G. Welch Stadium,Emporia State University,Lincoln (MO),56,10,Emporia,KS,38.4040054,-96.181623,29.6,0.0,13.8
+401520148,2023,1,2023-09-01T00:00:00.000Z,Huntington Bank Stadium,Minnesota,Nebraska,13,10,Minneapolis,MN,44.976525,-93.2245462,24.8,0.0,15.8
+401549650,2023,1,2023-09-01T00:00:00.000Z,Strong Stadium,Beloit,Rockford,34,27,Beloit,WI,42.5083272,-89.031784,22.2,0.0,4.8
+401531377,2023,1,2023-09-01T00:00:00.000Z,Protective Stadium,UAB,North Carolina A&T,35,6,Birmingham,AL,33.5206824,-86.8024326,25.5,0.0,6.2
+401520176,2023,1,2023-09-01T00:00:00.000Z,Rice-Eccles Stadium,Utah,Florida,24,11,Salt Lake City,UT,40.7599724,-111.8488255,31.9,0.0,20.2
+401541775,2023,1,2023-09-01T00:00:00.000Z,Crain Family Stadium,Oklahoma Baptist,Arkansas Tech,23,21,Shawnee,OK,35.3272928,-96.9253004,31.3,0.0,9.5
+401531337,2023,1,2023-09-01T00:00:00.000Z,Chapman Stadium,Tulsa,Arkansas-Pine Bluff,42,7,Tulsa,OK,36.1489175,-95.9437853,30.2,0.0,10.0
+401520165,2023,1,2023-09-01T00:00:00.000Z,Memorial Stadium,Missouri,South Dakota,35,10,Terre Haute,IN,39.4746858,-87.3669599,21.1,0.0,5.5
+401520165,2023,1,2023-09-01T00:00:00.000Z,Memorial Stadium,Missouri,South Dakota,35,10,Lawrence,KS,38.9629418,-95.2463686,28.5,0.0,10.6
+401520165,2023,1,2023-09-01T00:00:00.000Z,Memorial Stadium,Missouri,South Dakota,35,10,Columbia,MO,38.9358491,-92.3332009,23.0,0.0,7.2
+401541923,2023,1,2023-09-01T00:00:00.000Z,Stewart Stadium,Weber State,Central Washington,35,10,Ogden,UT,41.1918741,-111.9401391,30.3,0.0,8.2
+401541760,2023,1,2023-09-01T00:00:00.000Z,Ruggles Field at Carpenter-Haygood Stadium,Henderson State,East Central (OK),41,13,Arkadelphia,AR,34.1209292,-93.053784,28.4,0.0,10.4
+401541958,2023,1,2023-09-01T00:00:00.000Z,Fred G. Hughes Stadium,Missouri Southern State,Northwest Missouri St,24,31,Joplin,MO,37.08418,-94.51323,26.9,0.0,10.1
+401540278,2023,1,2023-09-01T00:00:00.000Z,Wildcat Stadium (TX),Abilene Christian,Northern Colorado,31,11,Abilene,TX,32.472275,-99.710464,35.9,0.0,5.8
+401551490,2023,1,2023-09-01T00:00:00.000Z,Al Whitehead Field at Greyhound Stadium,Eastern New Mexico,New Mexico Highlands,28,26,Portales,NM,34.1861922,-103.334397,33.1,0.0,18.0
+401523987,2023,1,2023-09-01T02:00:00.000Z,Mountain America Stadium,Arizona State,Southern Utah,24,21,Tempe,AZ,33.4264471,-111.9325005,37.6,0.0,12.1
+401541826,2023,1,2023-09-01T22:00:00.000Z,Blue Wahoos Stadium,West Florida,Kentucky Wesleyan,35,3,Pensacola,FL,30.421309,-87.2169149,27.7,0.5,16.6
+401550131,2023,1,2023-09-01T22:00:00.000Z,Vendetti Field,Nichols College,UMass Dartmouth,6,57,Dudley,MA,42.0572744,-71.9396898,19.9,0.0,2.3
+401532394,2023,1,2023-09-01T22:30:00.000Z,Rynearson Stadium,Eastern Michigan,Howard,33,23,Ypsilanti,MI,42.256126,-83.647285,22.3,0.0,9.2
+401552881,2023,1,2023-09-01T23:00:00.000Z,"Alumni Stadium (Worcester, MA)",Worcester Polytechnic Institute,Worcester St,44,13,Worcester,MA,42.2625621,-71.8018877,18.5,0.0,3.2
+401549629,2023,1,2023-09-01T23:00:00.000Z,Scotty Wood Stadium,Muhlenberg,Moravian,53,12,Allentown,PA,40.6022059,-75.4712794,21.9,0.0,5.8
+401525463,2023,1,2023-09-01T23:00:00.000Z,Hard Rock Stadium,Miami,Miami (OH),38,3,Miami Gardens,FL,25.9579665,-80.2388604,27.3,0.5,14.1
+401553027,2023,1,2023-09-01T23:00:00.000Z,Cardinal Stadium (DC),Catholic,McDaniel College,34,7,Washington,DC,38.8950368,-77.0365427,24.4,0.0,9.0
+401550109,2023,1,2023-09-01T23:00:00.000Z,Arnold Field (PA),Lebanon Valley,Franklin & Marshall,12,16,Annville,PA,40.3295901,-76.515226,22.6,0.0,4.9
+401549580,2023,1,2023-09-01T23:00:00.000Z,Merrill Field at Yunevich Stadium,Alfred University,Hobart College,9,31,Alfred,NY,42.2542334,-77.7906062,19.8,0.0,4.4
+401550079,2023,1,2023-09-01T23:00:00.000Z,Walter M. Katz Field,Curry College,Salve Regina,0,48,Milton,MA,42.2501425,-71.065573,18.3,0.0,8.4
+401520163,2023,1,2023-09-01T23:00:00.000Z,Spartan Stadium,Michigan State,Central Michigan,31,7,East Lansing,MI,42.7281474,-84.4848526,24.4,0.0,7.6
+401552447,2023,1,2023-09-01T23:30:00.000Z,Patterson Field,Ursinus,Reading,38,6,Collegeville,PA,40.1856597,-75.451571,22.6,0.0,4.3
+401525462,2023,1,2023-09-01T23:30:00.000Z,Mercedes-Benz Stadium,Georgia Tech,Louisville,34,39,Atlanta,GA,33.755578,-84.400881,26.2,0.0,16.6
+401546011,2023,1,2023-09-02T00:00:00.000Z,O'Harra Stadium,South Dakota Mines,Valley City State,31,14,Rapid City,SD,44.0869329,-103.2274481,31.2,0.0,5.2
+401525815,2023,1,2023-09-02T00:00:00.000Z,Memorial Stadium,Kansas,Missouri State,48,17,Terre Haute,IN,39.4746858,-87.3669599,23.7,0.0,7.2
+401525815,2023,1,2023-09-02T00:00:00.000Z,Memorial Stadium,Kansas,Missouri State,48,17,Lawrence,KS,38.9629418,-95.2463686,31.1,0.0,9.2
+401525815,2023,1,2023-09-02T00:00:00.000Z,Memorial Stadium,Kansas,Missouri State,48,17,Columbia,MO,38.9358491,-92.3332009,24.9,0.0,5.6
+401553008,2023,1,2023-09-02T00:00:00.000Z,Shelton Stadium,Hardin-Simmons,Albright,47,3,Abilene,TX,32.44645,-99.7475905,36.5,0.0,15.6
+401523988,2023,1,2023-09-02T03:00:00.000Z,Clarence T.C. Ching Athletics Complex,Hawai'i,Stanford,24,37,Honolulu,HI,21.294294,-157.819338,26.0,0.0,22.5
+401544077,2023,1,2023-09-02T04:00:00.000Z,,LYONCOLL,Grinnell,18,12,,,,,,,
+401539993,2023,1,2023-09-02T04:00:00.000Z,O'Kelly-Riddick Stadium,North Carolina Central,Winston-Salem,47,21,Durham,NC,35.9738646,-78.896969,17.1,0.0,7.3
+401540078,2023,1,2023-09-02T04:00:00.000Z,Goodman Stadium,Lehigh,Villanova,10,38,Bethlehem,PA,40.5890837,-75.3553874,16.4,0.0,12.3
+401540219,2023,1,2023-09-02T04:00:00.000Z,Bobcat Stadium,Montana State,Utah Tech,63,20,Bozeman,MT,45.659048,-111.049547,19.1,0.0,10.2
+401540012,2023,1,2023-09-02T04:00:00.000Z,Arthur J. Rooney Athletic Field,Duquesne,Edinboro University,49,7,Pittsburgh,PA,40.4355808,-79.9900263,17.7,0.0,7.6
+401540166,2023,1,2023-09-02T04:00:00.000Z,BBVA Compass Stadium,Texas Southern,Prairie View A&M,34,37,Houston,TX,29.7521988,-95.3524146,29.9,0.0,2.6
+401540225,2023,1,2023-09-02T04:00:00.000Z,Alex G. Spanos Stadium,Cal Poly,San Diego,27,10,San Luis Obispo,CA,35.2984123,-120.6650005,15.7,0.0,1.5
+401540562,2023,1,2023-09-02T04:00:00.000Z,O'Shaughnessy Stadium,St. Thomas (MN),Black Hills State,36,26,Saint Paul,MN,44.9497487,-93.0931028,24.9,0.0,15.0
+401546995,2023,1,2023-09-02T04:00:00.000Z,Jack Britt Memorial Stadium,Lake Erie,Franklin Pierce,10,26,Painesville,OH,41.7244885,-81.245657,17.1,0.0,12.6
+401545706,2023,1,2023-09-02T04:00:00.000Z,Callaghan Stadium,Concord University,Emory & Henry College,10,56,Princeton,WV,37.366328,-81.1026607,15.8,0.0,13.1
+401550454,2023,1,2023-09-02T04:00:00.000Z,Blue Jay Stadium,Westminster College (MO),Rhodes College,0,47,Fulton,MO,38.8467082,-91.9479586,19.7,0.0,11.6
+401540285,2023,1,2023-09-02T04:00:00.000Z,Manning Field at John L. Guidry Stadium,Nicholls,Sacramento State,24,38,Thibodaux,LA,29.7867254,-90.80455,25.5,0.0,5.4
+401541905,2023,1,2023-09-02T04:00:00.000Z,Ratliff Stadium,UT Permian Basin,Texas College,96,0,Odessa,TX,31.8457149,-102.367687,29.1,0.0,18.6
+401544096,2023,1,2023-09-02T04:00:00.000Z,Don Drumm Stadium,Marietta,St John Fisher University,31,7,Marietta,OH,39.4167742,-81.4548392,19.2,0.0,7.9
+401540163,2023,1,2023-09-02T04:00:00.000Z,Soldier Field,Mississippi Valley State,Central State (OH),21,24,Chicago,IL,41.8625,-87.616667,20.1,0.0,13.8
+401549784,2023,1,2023-09-02T04:00:00.000Z,Armfield Athletic Center,Guilford College,Greensboro College,36,21,Greensboro,NC,36.0726355,-79.7919754,18.3,0.0,6.9
+401550253,2023,1,2023-09-02T04:00:00.000Z,Bernlohr Stadium,Capital,Denison University,35,45,Bexley,OH,39.9692378,-82.936864,20.4,0.0,4.6
+401540396,2023,1,2023-09-02T04:00:00.000Z,Alumni Memorial Field,VMI,Davidson,12,7,Lexington,VA,37.788983,-79.43505,16.3,0.0,4.7
+401545759,2023,1,2023-09-02T04:00:00.000Z,Mueller Field,Notre Dame College,Ohio Dominican,23,21,South Euclid,OH,41.5231076,-81.5184553,16.5,0.0,12.6
+401541912,2023,1,2023-09-02T04:00:00.000Z,Mountaineer Bowl,Western Colorado,West Texas A&M,28,6,Gunnison,CO,38.6476702,-107.0603126,9.5,0.0,6.9
+401540003,2023,1,2023-09-02T04:00:00.000Z,Arute Field,Central Connecticut,American International,44,0,New Britain,CT,41.6950591,-72.7616197,14.6,0.0,9.4
+401540065,2023,1,2023-09-02T04:00:00.000Z,Fitton Field,Holy Cross,Merrimack,42,20,Worcester,MA,42.2403564,-71.8111424,14.0,0.0,10.4
+401540737,2023,1,2023-09-02T04:00:00.000Z,Donnell Stadium,Findlay,Truman State,10,20,Findlay,OH,41.0413873,-83.6503982,17.4,0.0,8.7
+401552473,2023,1,2023-09-02T16:00:00.000Z,Dale Lippert Field,Dean College,Fitchburg State,33,17,Franklin,MA,34.440962,-87.8339064,26.8,0.0,12.2
+401545782,2023,1,2023-09-02T16:00:00.000Z,Multi-Sport Stadium,Assumption,Kutztown University,31,20,Worcester,MA,42.2625621,-71.8018877,23.7,0.0,11.9
+401546992,2023,1,2023-09-02T16:00:00.000Z,Farmers Insurance Athletic Complex,Davenport,Thomas More College,31,17,Caledonia,MI,37.763382,-90.7729061,26.9,0.0,6.6
+401549622,2023,1,2023-09-02T16:00:00.000Z,Hempstead Stadium,Endicott College,St. Lawrence,31,0,Beverly,MA,42.5584284,-70.8800491,24.6,0.0,10.8
+401540708,2023,1,2023-09-02T16:00:00.000Z,Frost-Kalnow Stadium,Tiffin,McKendree,79,14,Tiffin,OH,41.114485,-83.1779537,27.2,0.0,14.4
+401551929,2023,1,2023-09-02T16:00:00.000Z,Athletic Field Complex,Keystone,Gallaudet,27,6,La Plume,PA,41.5565738,-75.7551655,22.9,0.0,11.0
+401520157,2023,1,2023-09-02T16:00:00.000Z,Kinnick Stadium,Iowa,Utah State,24,14,Iowa City,IA,41.6586045,-91.5510829,26.1,0.0,13.1
+401520159,2023,1,2023-09-02T16:00:00.000Z,Kroger Field,Kentucky,Ball State,44,14,Lexington,KY,38.0220905,-84.5053408,27.4,0.1,9.0
+401520160,2023,1,2023-09-02T16:00:00.000Z,Williams Stadium (VA),Liberty,Bowling Green,34,24,Lynchburg,VA,37.3544305,-79.1750239,24.6,0.0,6.6
+401520170,2023,1,2023-09-02T16:00:00.000Z,Ross-Ade Stadium,Purdue,Fresno State,35,39,West Lafayette,IN,40.4352253,-86.9186843,26.4,0.0,10.0
+401520172,2023,1,2023-09-02T16:00:00.000Z,Gerald J. Ford Stadium,SMU,Louisiana Tech,38,14,University Park,TX,32.8377223,-96.7827859,30.9,0.0,15.8
+401525464,2023,1,2023-09-02T16:00:00.000Z,"Alumni Stadium (Chestnut Hill, MA)",Boston College,Northern Illinois,24,27,Chestnut Hill,MA,42.335104,-71.1664413,24.8,0.0,14.7
+401541110,2023,1,2023-09-02T16:00:00.000Z,Bishop Stadium,North Carolina Wesleyan,Randolph-Macon,9,51,Rocky Mount,NC,35.9423833,-77.7956949,24.1,0.0,9.1
+401549310,2023,1,2023-09-02T16:00:00.000Z,St. Francis High School,Hilbert College,Union (NY),0,65,Hamburg,NY,,,,,
+401550145,2023,1,2023-09-02T16:00:00.000Z,Angell Field,Kalamazoo,Oberlin,42,10,Kalamazoo,MI,42.291707,-85.5872286,25.7,0.0,12.4
+401547185,2023,1,2023-09-02T16:00:00.000Z,Homewood Field,Johns Hopkins University,Ithaca College,27,17,Baltimore,MD,39.2908816,-76.610759,26.1,0.0,9.1
+401549730,2023,1,2023-09-02T16:00:00.000Z,Westside Athletic Complex,Western Connecticut St,Merchant Marine Academy,35,52,Danbury,CT,41.394817,-73.4540111,23.2,0.0,8.5
+401553021,2023,1,2023-09-02T16:00:00.000Z,Schmidt Stadium,Wilkes,Kings College (PA),23,27,Edwardsville,PA,33.707182,-85.51021468718943,26.8,0.0,12.4
+401545963,2023,1,2023-09-02T16:00:00.000Z,Seth Grove Stadium,Shippensburg,Newberry,10,14,Shippensburg,PA,40.0507198,-77.5205485,24.9,0.0,8.0
+401541053,2023,1,2023-09-02T16:00:00.000Z,Kean Alumni Stadium,Kean,SUNY Morrisville,14,24,Union,NJ,40.6976019,-74.2632024,25.3,0.0,9.0
+401545891,2023,1,2023-09-02T16:00:00.000Z,Ram Stadium (WV),Shepherd,Southern Connecticut State,27,26,Shepherdstown,WV,39.4300996,-77.804161,27.4,0.0,2.9
+401525822,2023,1,2023-09-02T16:00:00.000Z,"Memorial Stadium (Norman, OK)",Oklahoma,Arkansas State,73,0,Norman,OK,35.2058537,-97.4423145,29.6,0.0,11.6
+401550292,2023,1,2023-09-02T16:00:00.000Z,Bahlke Field,Alma,Ohio Northern,52,7,Alma,MI,43.37892,-84.659727,22.6,0.0,18.3
+401558747,2023,1,2023-09-02T16:00:00.000Z,Lions Stadium,College Of New Jersey,Eastern University,41,21,Ewing,NJ,40.2688105,-74.8006895,25.0,0.0,6.7
+401549737,2023,1,2023-09-02T16:00:00.000Z,Henry G. Steinbrenner '27 Stadium,MIT,Bridgewater State,41,27,Cambridge,MA,42.3750997,-71.1056157,25.0,0.0,14.7
+401550282,2023,1,2023-09-02T16:00:00.000Z,"Memorial Stadium (Westerville, OH)",Otterbein,Ohio Wesleyan,21,35,Westerville,OH,40.126139,-82.9295287,27.0,0.0,7.4
+401520179,2023,1,2023-09-02T16:00:00.000Z,Nissan Stadium,Tennessee,Virginia,49,13,Nashville,TN,36.166479,-86.7712898,27.2,0.0,6.0
+401544051,2023,1,2023-09-02T16:00:00.000Z,Edwin Fauver Stadium,University of Rochester (NY),Utica,17,20,Rochester,NY,43.157285,-77.615214,26.0,0.0,13.2
+401550056,2023,1,2023-09-02T16:00:00.000Z,Stadium Red Field,Cortland,Delaware Valley,42,13,Cortland,NY,41.2446453,-73.9259559,25.0,0.0,6.9
+401520162,2023,1,2023-09-02T16:00:00.000Z,Michigan Stadium,Michigan,East Carolina,30,3,Ann Arbor,MI,42.2658365,-83.7486956,25.7,0.0,14.4
+401545971,2023,1,2023-09-02T16:00:00.000Z,Bentley University Football Stadium,Bentley,West Chester,19,20,Waltham,MA,42.3756401,-71.2358004,24.8,0.0,12.2
+401523994,2023,1,2023-09-02T16:00:00.000Z,Amon G. Carter Stadium,TCU,Colorado,42,45,Fort Worth,TX,32.7096604,-97.3680835,31.8,0.0,6.2
+401540057,2023,1,2023-09-02T16:30:00.000Z,Cooper Field,Georgetown,Marist,49,7,Washington,DC,38.9080248,-77.0753144,27.6,0.0,8.7
+401544060,2023,1,2023-09-02T17:00:00.000Z,Wightman Stadium,William Paterson,FDU-Florham,29,33,Wayne,NJ,40.9491723,-74.2376802,26.2,0.0,8.7
+401540508,2023,1,2023-09-02T17:00:00.000Z,W.B. Mason Stadium,Stonehill,New Hampshire,17,51,North Easton,MA,42.0667665,-71.1036592,24.6,0.0,12.7
+401540099,2023,1,2023-09-02T17:00:00.000Z,Hancock Stadium,Illinois State,Dayton,41,0,Normal,IL,40.5125091,-88.9967177,26.1,0.0,9.9
+401552992,2023,1,2023-09-02T17:00:00.000Z,Shirk Field at Musselman Stadium,Gettysburg,Juniata College,40,20,Gettysburg,PA,39.8308973,-77.231012,28.0,0.0,7.5
+401550226,2023,1,2023-09-02T17:00:00.000Z,Wilson Field,Washington and Lee,Salisbury,7,28,Lexington,VA,37.7840208,-79.4428157,27.9,0.0,2.9
+401549817,2023,1,2023-09-02T17:00:00.000Z,Jopson Athletic Complex,Bridgewater (VA),Susquehanna,19,51,Bridgewater,VA,38.3820655,-78.9766975,28.2,0.0,2.9
+401532570,2023,1,2023-09-02T17:00:00.000Z,Falcon Stadium,Air Force,Robert Morris,42,7,Colorado Springs,CO,38.9969701,-104.8436165,28.6,0.0,5.7
+401549810,2023,1,2023-09-02T17:00:00.000Z,Brevard Memorial Stadium,Brevard College,Warner University,23,29,Brevard,NC,35.2334472,-82.7342919,25.4,0.0,5.6
+401550061,2023,1,2023-09-02T17:00:00.000Z,Dave Wolk Stadium,Castleton,Plymouth State,25,21,Castleton,VT,43.6111275,-73.1807089,23.1,0.0,14.4
+401550187,2023,1,2023-09-02T17:00:00.000Z,Clemens Stadium,Saint John's (MN),Trinity University TX,34,31,Collegeville,MN,45.5944117,-94.3622868,29.1,0.0,7.3
+401550309,2023,1,2023-09-02T17:00:00.000Z,Apprentice Field,Apprentice School,Averett,14,34,Newport News,VA,36.9775016,-76.42977,24.1,0.0,4.4
+401550366,2023,1,2023-09-02T17:00:00.000Z,Hardee-McGee Field,Sewanee,Maryville College (TN),8,28,Sewanee,TN,35.200644,-85.91952368522726,25.2,0.0,10.2
+401539970,2023,1,2023-09-02T17:00:00.000Z,Alumni Stadium,Delaware State,Bowie State,11,22,Dover,DE,39.189375,-75.5433185,25.8,0.0,2.1
+401540684,2023,1,2023-09-02T17:00:00.000Z,Cebe Ross Field,West Virginia Wesleyan,Johnson C Smith,6,49,Buckhannon,WV,38.9939426,-80.2322698,26.4,0.0,8.6
+401541092,2023,1,2023-09-02T17:00:00.000Z,Wiliams Stadium (OH),Wilmington (OH),Wooster,63,43,Wilmington,OH,39.4453393,-83.8285375,29.9,0.0,13.0
+401549615,2023,1,2023-09-02T17:00:00.000Z,Biddle Field,Dickinson (PA),Rensselaer,27,38,Carlisle,PA,40.201499,-77.1890783,27.0,0.0,5.4
+401544871,2023,1,2023-09-02T17:00:00.000Z,Roebuck Stadium,Elizabeth City State,Catawba,23,31,Elizabeth City,NC,36.2956836,-76.2247697,25.2,0.0,7.2
+401549802,2023,1,2023-09-02T17:00:00.000Z,Shentel Stadium,Shenandoah,Methodist,44,29,Winchester,VA,39.1852184,-78.1652404,30.2,0.0,0.8
+401550391,2023,1,2023-09-02T17:00:00.000Z,Robert E. Thorn Field,Grove City College,Westminster (PA),17,7,Grove City,PA,41.1579008,-80.0886631,25.7,0.0,9.5
+401553000,2023,1,2023-09-02T17:00:00.000Z,Leslie C. Quick Jr. Stadium,Widener,Lycoming,42,21,Chester,PA,39.849557,-75.3557458,26.4,0.0,8.0
+401547204,2023,1,2023-09-02T17:00:00.000Z,Blue Storm Stadium,Biddeford,Coast Guard,44,28,Portland,ME,43.6610277,-70.2548596,25.7,0.0,8.4
+401549752,2023,1,2023-09-02T17:00:00.000Z,Sherman Field at McConagha Stadium,Muskingum University,Ferrum,31,20,New Concord,OH,39.9934992,-81.7338559,28.6,0.0,9.1
+401550289,2023,1,2023-09-02T17:00:00.000Z,Lewis C. Everett Stadium,Hampden-Sydney,Wabash College,28,29,Farmville,VA,37.3024713,-78.3923813,27.5,0.0,3.4
+401544954,2023,1,2023-09-02T17:00:00.000Z,George Finnie Stadium,Baldwin Wallace,Mount St. Joseph,33,46,Berea,OH,41.3661614,-81.8543026,27.7,0.0,14.2
+401550025,2023,1,2023-09-02T17:00:00.000Z,John F. Wiley Stadium,Waynesburg,Allegheny,36,39,Waynesburg,PA,39.8964641,-80.1792299,27.6,0.0,9.0
+401551917,2023,1,2023-09-02T17:00:00.000Z,Mangelsdorf Field,Misericordia,Alfred State,14,24,Dallas,PA,32.3117968,-87.1046643,27.9,0.0,14.4
+401547195,2023,1,2023-09-02T17:00:00.000Z,Dr. John W. Winkin Sports Complex,Husson,Norwich,28,14,Bangor,ME,44.8011821,-68.7778138,24.4,0.0,11.4
+401544115,2023,1,2023-09-02T17:00:00.000Z,Chuck Noll Field,Saint Vincent,Washington & Jefferson,0,51,Latrobe,PA,40.317287,-79.3840301,26.2,0.0,8.2
+401541101,2023,1,2023-09-02T17:00:00.000Z,Golden Bear Stadium,Western New England,Springfield,14,28,Springfield,MA,42.1018764,-72.5886727,26.0,0.0,12.2
+401544962,2023,1,2023-09-02T17:30:00.000Z,"Stewart """"Red"""" Faught Stadium",Franklin,Olivet College,32,35,Franklin,IN,33.704156,-117.75109,22.3,0.1,12.7
+401544106,2023,1,2023-09-02T17:30:00.000Z,Justin F. Coressel Stadium,Defiance College,University of Mount Union,6,45,Defiance,OH,41.2844933,-84.3557802,29.0,0.0,16.3
+401550091,2023,1,2023-09-02T17:30:00.000Z,Farris Stadium,Centre College Kentucky,Hanover College,7,10,Danville,KY,37.6456488,-84.7721823,29.1,0.2,6.6
+401547090,2023,1,2023-09-02T18:00:00.000Z,Klein Field at Manitou,St. Olaf,Central College,24,34,Northfield,MN,44.4582041,-93.161159,31.0,0.0,16.9
+401549638,2023,1,2023-09-02T18:00:00.000Z,Art Keller Field,Carthage,Albion,20,41,Kenosha,WI,42.5846773,-87.8212263,29.0,0.0,17.3
+401547148,2023,1,2023-09-02T18:00:00.000Z,David Smith Stadium at Ramer Field,Wisconsin-River Falls,Mary Hardin-Baylor,45,22,River Falls,WI,44.8595111,-92.6265897,30.3,0.0,15.3
+401539986,2023,1,2023-09-02T18:00:00.000Z,"William Dick"""" Price Stadium""""",Norfolk State,Virginia St,24,33,Norfolk,VA,36.8469442,-76.2600839,23.8,0.0,9.2
+401550212,2023,1,2023-09-02T18:00:00.000Z,Amos Alonzo Stagg Field,Chicago,Claremont-Mudd-Scripps College,15,24,Chicago,IL,41.8755616,-87.6244212,28.9,0.0,23.5
+401554953,2023,1,2023-09-02T18:00:00.000Z,,Roosevelt,North Central College,7,41,,,,,,,
+401540258,2023,1,2023-09-02T18:00:00.000Z,Washington-Grizzly Stadium,Montana,Butler,35,20,Missoula,MT,46.8638753,-113.9815042,24.3,0.0,0.7
+401547107,2023,1,2023-09-02T18:00:00.000Z,Chalmers Field,Dubuque,Wittenberg,27,28,Dubuque,IA,42.5006243,-90.6647985,30.3,0.0,16.9
+401550286,2023,1,2023-09-02T18:00:00.000Z,Don Shula Stadium at Wasmer Field,John Carroll University,Wisconsin-Whitewater,23,27,University Heights,OH,41.497831,-81.537346,25.8,0.0,16.4
+401544069,2023,1,2023-09-02T18:00:00.000Z,Langhorst Field,Elmhurst,Adrian,14,3,Elmhurst,IL,41.8994745,-87.9403418,29.0,0.0,18.4
+401549644,2023,1,2023-09-02T18:00:00.000Z,Young-Wise Memorial Stadium,Hendrix College,Washington University (St. Louis),27,44,Conway,AR,35.2521996,-92.6888936,30.1,0.0,4.4
+401520158,2023,1,2023-09-02T18:00:00.000Z,AmFirst Stadium,Jacksonville State,East Tennessee State,49,3,Jacksonville,AL,33.8201052,-85.76647,29.3,0.0,7.4
+401546947,2023,1,2023-09-02T18:00:00.000Z,Liberty North High School,William Jewell,Fort Lewis,42,6,Liberty,MO,,,,,
+401532395,2023,1,2023-09-02T18:00:00.000Z,Peden Stadium,Ohio,Long Island University,27,10,Athens,OH,39.3212794,-82.1034315,31.3,0.0,7.4
+401549776,2023,1,2023-09-02T18:00:00.000Z,Carson Park,Wisconsin-Eau Claire,Concordia Moorhead,31,28,Eau Claire,WI,44.811349,-91.4984941,28.8,0.0,12.9
+401547125,2023,1,2023-09-02T18:00:00.000Z,Jerry E. Apple Stadium,Austin,Nebraska Wesleyan,7,19,Sherman,TX,36.2452294,-101.8858689,35.2,0.0,20.1
+401550451,2023,1,2023-09-02T18:00:00.000Z,,St Ambrose University  Iowa,Wisconsin-Stout,7,35,,,,,,,
+401550179,2023,1,2023-09-02T18:00:00.000Z,Klas Field,Hamline University,Crown College,45,13,Saint Paul,MN,44.9497487,-93.0931028,31.8,0.0,13.0
+401550153,2023,1,2023-09-02T18:00:00.000Z,Edor Nelson Field,Augsburg,Northwestern (MN),52,10,Minneapolis,MN,44.9772995,-93.2654692,32.1,0.0,11.8
+401541120,2023,1,2023-09-02T18:00:00.000Z,Concordia Stadium,Concordia University Chicago,Greenville,14,41,River Forest,IL,41.8978091,-87.8139483,29.0,0.0,19.7
+401520168,2023,1,2023-09-02T18:00:00.000Z,Vaught-Hemingway Stadium,Ole Miss,Mercer,73,7,Oxford,MS,34.3619837,-89.5342076,29.1,0.3,11.3
+401550207,2023,1,2023-09-02T18:00:00.000Z,Donald J. Schneider Stadium,St. Norbert,Ripon,23,7,De Pere,WI,44.4493584,-88.0599986,25.2,0.0,15.8
+401545800,2023,1,2023-09-02T18:00:00.000Z,Kirkeby-Over Stadium,Augustana University (SD),University of Mary,38,7,Sioux Falls,SD,43.5488256,-96.7307737,32.6,0.0,20.9
+401547080,2023,1,2023-09-02T18:00:00.000Z,Hollingsworth Field,Gustavus Adolphus,Buena Vista,51,7,Saint Peter,MN,44.3238384,-93.9585295,32.4,0.0,17.4
+401547099,2023,1,2023-09-02T18:00:00.000Z,Van Metre Field at Ash Park,Cornell College (IA),Coe College,6,56,Mount Vernon,IA,41.9222443,-91.4171209,29.7,0.0,17.9
+401549767,2023,1,2023-09-02T18:00:00.000Z,Tomasini Stadium,Concordia-Wisconsin,Martin Luther,55,14,Mequon,WI,43.2219088,-87.9822969,29.6,0.0,16.3
+401550219,2023,1,2023-09-02T18:00:00.000Z,Vago Field,Aurora,Hope College,38,17,Aurora,IL,41.7571701,-88.3147539,29.8,0.0,18.3
+401531387,2023,1,2023-09-02T18:00:00.000Z,Lincoln Financial Field,Temple,Akron,24,21,Philadelphia,PA,39.9007995,-75.1675414,28.2,0.0,9.3
+401525820,2023,1,2023-09-02T18:00:00.000Z,Jack Trice Stadium,Iowa State,Northern Iowa,30,9,Ames,IA,42.0139977,-93.6357716,32.1,0.0,18.3
+401541043,2023,1,2023-09-02T18:05:00.000Z,J.J. Keller Field at Titan Stadium,Wisconsin-Oshkosh,Texas Lutheran,48,31,Oshkosh,WI,44.0206919,-88.5408574,28.1,0.0,18.8
+401544926,2023,1,2023-09-02T19:00:00.000Z,Lane Field,Lane College,Miles College,24,37,Jackson,TN,35.6144446,-88.8177418,29.2,0.0,10.6
+401523992,2023,1,2023-09-02T19:00:00.000Z,Autzen Stadium,Oregon,Portland State,81,7,Eugene,OR,44.0582712,-123.0684883,24.9,0.0,5.6
+401540155,2023,1,2023-09-02T19:00:00.000Z,Red Bull Arena,Hampton,Grambling,35,31,Harrison,NJ,,,,,
+401541898,2023,1,2023-09-02T19:00:00.000Z,Ralph Stocker Stadium,Colorado Mesa,Texas A&M-Kingsville,10,30,Grand Junction,CO,39.063956,-108.5507317,29.5,0.0,1.3
+401520180,2023,1,2023-09-02T19:30:00.000Z,Camp Randall Stadium,Wisconsin,Buffalo,38,17,Madison,WI,43.06994,-89.4126943,31.2,0.0,20.1
+401520181,2023,1,2023-09-02T19:30:00.000Z,Houchens Industries-L.T. Smith Stadium,Western Kentucky,South Florida,41,24,Bowling Green,KY,36.9847901,-86.4594041,31.0,0.0,6.9
+401540235,2023,1,2023-09-02T19:30:00.000Z,U.S. Bank Stadium,North Dakota State,Eastern Washington,35,10,Minneapolis,MN,,,,,
+401531835,2023,1,2023-09-02T19:30:00.000Z,Kidd Brewer Stadium,App State,Gardner-Webb,45,24,Boone,NC,36.2114267,-81.6854278,24.9,0.0,8.3
+401523997,2023,1,2023-09-02T19:30:00.000Z,Husky Stadium,Washington,Boise State,56,19,Houston,TX,29.6949025,-95.5167353,36.4,0.2,10.9
+401523997,2023,1,2023-09-02T19:30:00.000Z,Husky Stadium,Washington,Boise State,56,19,Saint Cloud,MN,45.5616075,-94.1642004,32.5,0.0,11.9
+401523997,2023,1,2023-09-02T19:30:00.000Z,Husky Stadium,Washington,Boise State,56,19,Seattle,WA,47.6503235,-122.3015746,22.7,0.0,10.2
+401525818,2023,1,2023-09-02T19:30:00.000Z,Nippert Stadium,Cincinnati,Eastern Kentucky,66,13,Cincinnati,OH,39.1312495,-84.5161913,31.3,0.0,10.0
+401520161,2023,1,2023-09-02T19:30:00.000Z,SECU Stadium,Maryland,Towson,38,6,College Park,MD,38.9903332,-76.9473792,29.0,0.0,9.1
+401525824,2023,1,2023-09-02T19:30:00.000Z,DKR-Texas Memorial Stadium,Texas,Rice,37,10,Austin,TX,30.2836813,-97.7325345,37.4,0.0,13.2
+401520151,2023,1,2023-09-02T19:30:00.000Z,Jordan-Hare Stadium,Auburn,Massachusetts,59,14,Auburn,AL,32.6025532,-85.4897479,29.1,0.0,10.2
+401525465,2023,1,2023-09-02T19:30:00.000Z,Acrisure Stadium,Pittsburgh,Wofford,45,7,Pittsburgh,PA,40.4467648,-80.0157603,30.4,0.0,11.2
+401525435,2023,1,2023-09-02T19:30:00.000Z,Notre Dame Stadium,Notre Dame,Tennessee State,56,3,Notre Dame,IN,41.698378,-86.2339425,28.1,0.0,18.4
+401520156,2023,1,2023-09-02T19:30:00.000Z,"Memorial Stadium (Bloomington, IN)",Indiana,Ohio State,3,23,Bloomington,IN,39.1808959,-86.5256217,31.6,0.0,8.9
+401540369,2023,1,2023-09-02T20:00:00.000Z,Alerus Center,North Dakota,Drake,55,7,Grand Forks,ND,47.910622,-97.090996,32.7,0.0,14.2
+401525466,2023,1,2023-09-02T20:00:00.000Z,JMA Wireless Dome,Syracuse,Colgate,65,0,Syracuse,NY,43.0362269,-76.1363161,26.7,0.0,13.0
+401523991,2023,1,2023-09-02T20:00:00.000Z,DATCU Stadium,North Texas,California,21,58,Denton,TX,33.203899,-97.159245,35.4,0.0,8.8
+401544144,2023,1,2023-09-02T20:00:00.000Z,Sparks Stadium,Pacific Lutheran,Redlands,14,24,Puyallup,WA,47.1849009,-122.29214,26.3,0.0,7.0
+401550874,2023,1,2023-09-02T20:00:00.000Z,Baker Stadium,Puget Sound,Lewis & Clark College,42,38,Tacoma,WA,47.2495798,-122.4398746,25.9,0.0,10.7
+401551509,2023,1,2023-09-02T20:00:00.000Z,William Rolland Stadium,California Lutheran University,Southwestern University,41,35,Thousand Oaks,CA,34.1705609,-118.8375937,22.3,0.1,15.8
+401553004,2023,1,2023-09-02T20:00:00.000Z,Ortmayer Stadium,La Verne,Willamette,21,24,La Verne,CA,34.1008426,-117.7678355,21.7,0.6,6.9
+401558977,2023,1,2023-09-02T20:00:00.000Z,Reinhart Field,SUNY Maritime,Hartwick,34,11,Bronx,NY,40.807528,-73.797744,23.9,0.0,16.2
+401520150,2023,1,2023-09-02T20:00:00.000Z,War Memorial Stadium (AR),Arkansas,Western Carolina,56,13,Little Rock,AR,34.749848,-92.330127,31.4,0.0,5.8
+401532572,2023,1,2023-09-02T20:00:00.000Z,Allegiant Stadium,UNLV,Bryant,44,14,Las Vegas,NV,36.1672559,-115.1485163,26.8,0.1,4.3
+401520164,2023,1,2023-09-02T20:00:00.000Z,Davis Wade Stadium,Mississippi State,SE Louisiana,48,7,Starkville,MS,33.4563403,-88.7933652,28.9,0.1,15.4
+401549743,2023,1,2023-09-02T21:00:00.000Z,TowneBank Stadium,Christopher Newport,Southern Virginia,45,0,Newport News,VA,36.9775016,-76.42977,24.4,0.0,9.0
+401520154,2023,1,2023-09-02T22:00:00.000Z,Sanford Stadium,Georgia,UT Martin,48,7,Athens,GA,33.9498197,-83.3733813,26.6,0.0,6.1
+401541023,2023,1,2023-09-02T22:00:00.000Z,Hubert Jack Stadium,Lock Haven University,Post University,58,7,Lock Haven,PA,41.1369077,-77.4471641,26.8,0.0,7.6
+401531837,2023,1,2023-09-02T22:00:00.000Z,Bridgeforth Stadium,James Madison,Bucknell,38,3,Harrisonburg,VA,38.4352919,-78.8729349,29.1,0.0,7.3
+401544134,2023,1,2023-09-02T22:00:00.000Z,Valhalla Stadium,Berry College,Huntingdon College (AL),67,34,Mount Berry,GA,34.275093,-85.1832843,28.1,0.0,8.3
+401547020,2023,1,2023-09-02T22:00:00.000Z,Helen and Leonard Moretz Stadium,Lenoir-Rhyne,St. Augustine's,45,7,Hickory,NC,35.7333312,-81.3442915,27.1,0.0,5.4
+401547013,2023,1,2023-09-02T22:00:00.000Z,W.C. Hawkins Stadium,Allen,ERSKINE,24,17,Columbia,SC,34.0007493,-81.0343313,25.5,0.0,5.5
+401540693,2023,1,2023-09-02T22:00:00.000Z,Charlie W. Johnson Stadium,Benedict College,Shaw,52,0,Columbia,SC,34.0007493,-81.0343313,25.5,0.0,5.5
+401531418,2023,1,2023-09-02T22:00:00.000Z,FAU Stadium,Florida Atlantic,Monmouth,42,20,Boca Raton,FL,26.3763763,-80.1015759,28.9,0.0,23.2
+401550046,2023,1,2023-09-02T22:00:00.000Z,Carl W. Burt Memorial Stadium,Manchester,North Park,0,27,North Manchester,IN,41.0006005,-85.768597,30.1,0.0,19.0
+401531402,2023,1,2023-09-02T22:00:00.000Z,Jerry Richardson Stadium,Charlotte,South Carolina State,24,3,Charlotte,NC,35.3105033,-80.7401194,26.7,0.0,3.7
+401540115,2023,1,2023-09-02T22:00:00.000Z,Hornet Stadium,Alabama State,Southern,14,10,Sacramento,CA,38.5556718,-121.4229607,25.4,0.0,12.0
+401540115,2023,1,2023-09-02T22:00:00.000Z,Hornet Stadium,Alabama State,Southern,14,10,Montgomery,AL,32.3642223,-86.2896902,29.5,0.0,12.7
+401540027,2023,1,2023-09-02T22:00:00.000Z,Campus Field,Sacred Heart,Lafayette,14,19,Fairfield,CT,41.2212488,-73.2417431,22.2,0.0,14.2
+401547031,2023,1,2023-09-02T22:00:00.000Z,Earl Kitchings Stadium,Edward Waters,Florida Memorial University,21,38,Jacksonville,FL,30.3321838,-81.655651,27.5,0.1,21.3
+401531838,2023,1,2023-09-02T22:00:00.000Z,Joan C. Edwards Stadium,Marshall,UAlbany,21,17,Huntington,WV,38.4247042,-82.4214412,33.0,0.0,4.3
+401539978,2023,1,2023-09-02T22:00:00.000Z,E. Claiborne Robins Stadium,Richmond,Morgan State,10,17,Richmond,VA,37.5807765,-77.5372211,27.6,0.0,3.3
+401540565,2023,1,2023-09-02T22:00:00.000Z,Spec Martin Municipal Stadium,Stetson,St. Thomas University (Fl),34,33,DeLand,FL,29.0208575,-81.2993746,29.0,0.0,17.2
+401531836,2023,1,2023-09-02T22:00:00.000Z,Allen E. Paulson Stadium,Georgia Southern,The Citadel,34,0,Statesboro,GA,32.4122471,-81.7849296,28.2,0.0,5.9
+401541885,2023,1,2023-09-02T22:00:00.000Z,Alumni Memorial Stadium (NC),Livingstone,Bluefield State,7,41,Salisbury,NC,35.6709727,-80.4742261,28.0,0.0,4.7
+401550150,2023,1,2023-09-02T22:00:00.000Z,Macholtz Stadium,Anderson (IN),Trine University,0,61,Anderson,IN,40.1053196,-85.6802541,29.7,0.0,14.8
+401540698,2023,1,2023-09-02T22:00:00.000Z,Key Stadium,Indianapolis,Hillsdale,39,20,Indianapolis,IN,39.7683331,-86.1583502,31.5,0.0,14.0
+401540043,2023,1,2023-09-02T22:00:00.000Z,Jack Coffey Field,Fordham,Wagner,46,16,Bronx,NY,40.8466508,-73.8785937,22.5,0.0,17.1
+401541797,2023,1,2023-09-02T22:00:00.000Z,Mihalik-Thompson Stadium,Slippery Rock,Wayne State (MI),28,17,Slippery Rock,PA,41.0639506,-80.0564468,26.9,0.0,9.0
+401523996,2023,1,2023-09-02T22:30:00.000Z,Los Angeles Memorial Coliseum,USC,Nevada,66,14,Los Angeles,CA,34.014167,-118.287778,24.9,0.0,13.0
+401520153,2023,1,2023-09-02T22:30:00.000Z,FIU Stadium,Florida International,Maine,14,12,Miami,FL,25.7525014,-80.3778912,28.1,0.0,11.6
+401520175,2023,1,2023-09-02T23:00:00.000Z,Malone Stadium,UL Monroe,Army,17,13,Monroe,LA,32.5308089,-92.0660602,34.6,0.0,7.9
+401551481,2023,1,2023-09-02T23:00:00.000Z,,Oklahoma Panhandle St,Southwest Baptist,7,65,,,,,,,
+401525821,2023,1,2023-09-02T23:00:00.000Z,Bill Snyder Family Stadium,Kansas State,Southeast Missouri State,45,0,Manhattan,KS,39.2020096,-96.5938395,36.4,0.0,18.4
+401540354,2023,1,2023-09-02T23:00:00.000Z,Husky Stadium,Houston Christian,Little Rock,66,0,Houston,TX,29.6949025,-95.5167353,35.0,0.0,9.7
+401540354,2023,1,2023-09-02T23:00:00.000Z,Husky Stadium,Houston Christian,Little Rock,66,0,Saint Cloud,MN,45.5616075,-94.1642004,32.8,0.0,12.4
+401540354,2023,1,2023-09-02T23:00:00.000Z,Husky Stadium,Houston Christian,Little Rock,66,0,Seattle,WA,47.6503235,-122.3015746,24.7,0.0,11.3
+401541864,2023,1,2023-09-02T23:00:00.000Z,Bazemore-Hyder Stadium,Valdosta State,Point University,63,10,Valdosta,GA,30.8327022,-83.2784851,27.6,0.0,7.2
+401541082,2023,1,2023-09-02T23:00:00.000Z,Cook Stadium,Rose-Hulman,Depauw,21,33,Terre Haute,IN,39.4667025,-87.4139119,29.9,0.0,10.4
+401547078,2023,1,2023-09-02T23:00:00.000Z,,LAKELAND,Savannah St,20,23,,,,,,,
+401544935,2023,1,2023-09-02T23:00:00.000Z,Bill Buxton Stadium,Simpson College (IA),Augustana (IL),27,49,Indianola,IA,41.3604966,-93.5613292,31.5,0.0,24.1
+401525823,2023,1,2023-09-02T23:00:00.000Z,Boone Pickens Stadium,Oklahoma State,Central Arkansas,27,13,Stillwater,OK,36.125673,-97.066513,32.6,0.0,8.7
+401544125,2023,1,2023-09-02T23:00:00.000Z,Alumni Stadium (PA),Thiel,Case Western Reserve,0,14,Greenville,PA,31.8295972,-86.6177517,27.2,0.1,8.4
+401544945,2023,1,2023-09-02T23:00:00.000Z,England Stadium,Illinois College,Millikin,31,0,Jacksonville,IL,39.7343037,-90.2288356,27.7,0.0,10.8
+401553015,2023,1,2023-09-02T23:00:00.000Z,Caparso Field,Anna Maria College,Westfield State,51,27,Paxton,MA,42.3122967,-71.934172,19.2,0.0,13.4
+401531840,2023,1,2023-09-02T23:00:00.000Z,M. M. Roberts Stadium,Southern Miss,Alcorn State,40,14,Hattiesburg,MS,31.3289321,-89.3318118,30.3,0.0,9.8
+401549705,2023,1,2023-09-02T23:00:00.000Z,Carl Smith Stadium,UVA Wise,Union College,48,0,Wise,VA,36.9759345,-82.5757108,24.8,0.0,5.7
+401549666,2023,1,2023-09-02T23:00:00.000Z,Warrior Field at Raabe Stadium,Wisconsin-Lutheran,Lake Forest College,0,24,Wauwatosa,WI,43.0494122,-88.0079271,30.6,0.0,19.9
+401540200,2023,1,2023-09-02T23:00:00.000Z,Braly Municipal Stadium,North Alabama,Chattanooga,41,27,Florence,AL,34.810914,-87.670587,29.4,0.0,8.7
+401550216,2023,1,2023-09-02T23:00:00.000Z,Pete FioRito Stadium at McKinzie Field,Eureka College,Knox College,41,16,Eureka,IL,40.7213015,-89.2726708,27.8,0.0,15.8
+401540173,2023,1,2023-09-02T23:00:00.000Z,Saluki Stadium,Southern Illinois,Austin Peay,49,23,Carbondale,IL,37.708637,-89.216212,29.7,0.0,6.9
+401520173,2023,1,2023-09-02T23:00:00.000Z,Kyle Field,Texas A&M,New Mexico,52,10,College Station,TX,30.6098891,-96.3403828,37.4,0.0,12.8
+401550184,2023,1,2023-09-02T23:00:00.000Z,Macalester Stadium,Macalester,Minnesota Morris,44,30,Saint Paul,MN,44.9497487,-93.0931028,33.6,0.0,13.5
+401531426,2023,1,2023-09-02T23:00:00.000Z,Simmons Bank Liberty Stadium,Memphis,Bethune-Cookman,56,14,Memphis,TN,35.1209429,-89.977147,29.2,0.1,15.9
+401531841,2023,1,2023-09-02T23:00:00.000Z,Veterans Memorial Stadium (AL),Troy,Stephen F. Austin,48,30,Troy,AL,31.7995565,-85.9518328,27.2,0.0,8.1
+401525819,2023,1,2023-09-02T23:00:00.000Z,TDECU Stadium,Houston,UTSA,17,14,Houston,TX,29.7219885,-95.3491623,34.2,0.0,10.9
+401525817,2023,1,2023-09-02T23:00:00.000Z,McLane Stadium,Baylor,Texas State,31,42,Waco,TX,31.5582015,-97.1156702,37.2,0.0,2.8
+401523990,2023,1,2023-09-02T23:00:00.000Z,Canvas Stadium,Colorado State,Washington State,24,50,Fort Collins,CO,40.570015,-105.088435,29.2,0.0,12.0
+401520178,2023,1,2023-09-02T23:00:00.000Z,FirstBank Stadium,Vanderbilt,Alabama A&M,47,13,Nashville,TN,36.1440455,-86.8088942,30.3,0.0,2.5
+401540363,2023,1,2023-09-02T23:00:00.000Z,Roy Stewart Stadium,Murray State,Presbyterian,41,10,Murray,KY,36.6215165,-88.3175531,28.7,0.0,7.4
+401541063,2023,1,2023-09-02T23:00:00.000Z,Alumni Field (OH),Bluffton,Kenyon,51,35,Bluffton,OH,40.8934459,-83.8917849,29.4,0.0,14.8
+401573283,2023,1,2023-09-02T23:00:00.000Z,Rock Bowl,Loras College,Benedictine University,42,41,Dubuque,IA,42.5006243,-90.6647985,30.4,0.0,17.9
+401550373,2023,1,2023-09-02T23:30:00.000Z,Reeves Field (PA),Geneva,Carnegie Mellon,0,31,Beaver Falls,PA,40.7520097,-80.3192295,27.1,0.0,5.9
+401531839,2023,1,2023-09-02T23:30:00.000Z,Cajun Field,Louisiana,Northwestern State,38,13,Lafayette,LA,30.2158434,-92.0417371,32.3,0.0,7.2
+401520167,2023,1,2023-09-02T23:30:00.000Z,Bank of America Stadium,North Carolina,South Carolina,31,17,Charlotte,NC,35.225833,-80.852778,24.1,0.0,7.3
+401520149,2023,1,2023-09-02T23:30:00.000Z,Bryant-Denny Stadium,Alabama,Middle Tennessee,56,7,Tuscaloosa,AL,33.2082752,-87.5503836,28.5,0.0,7.3
+401520155,2023,1,2023-09-02T23:30:00.000Z,"Memorial Stadium (Champaign, IL)",Illinois,Toledo,30,28,Champaign,IL,40.0993268,-88.2359569,28.7,0.0,14.0
+401525825,2023,1,2023-09-02T23:30:00.000Z,War Memorial Stadium,Wyoming,Texas Tech,35,33,Laramie,WY,41.31161,-105.5681384,21.0,0.6,11.9
+401520169,2023,1,2023-09-02T23:30:00.000Z,Beaver Stadium,Penn State,West Virginia,38,15,University Park,PA,40.8121958,-77.8561023,24.0,0.0,4.8
+401525467,2023,1,2023-09-03T00:00:00.000Z,Lane Stadium,Virginia Tech,Old Dominion,36,17,Blacksburg,VA,37.2199873,-80.4180643,22.3,0.0,7.6
+401547129,2023,1,2023-09-03T00:00:00.000Z,Walston-Hoover Stadium,Wartburg,Monmouth (IL),62,35,Waverly,IA,42.7258451,-92.4746033,30.3,0.0,21.4
+401540980,2023,1,2023-09-03T00:00:00.000Z,Neta and Eddie DeRose ThunderBowl,CSU Pueblo,Midwestern State,37,8,Pueblo,CO,38.2544472,-104.609141,34.9,0.0,15.5
+401547140,2023,1,2023-09-03T00:00:00.000Z,Stoffer Family Stadium,NEWBERG,Howard Payne,3,17,Newberg,OR,45.300347,-122.972751,20.1,0.0,15.5
+401544898,2023,1,2023-09-03T00:00:00.000Z,Rex Stadium,Adams State,Lincoln (CA),35,16,Alamosa,CO,37.5780995,-105.7890452,24.9,0.1,15.7
+401540213,2023,1,2023-09-03T00:00:00.000Z,Cowboy Stadium,McNeese,Tarleton State,34,52,Lake Charles,LA,30.1804575,-93.2178729,32.0,0.6,8.1
+401541918,2023,1,2023-09-03T00:00:00.000Z,Ben Altamirano Field,Western New Mexico,Sul Ross State,42,28,Silver City,NM,32.7751371,-108.2754371,27.5,0.0,7.9
+401531347,2023,1,2023-09-03T00:00:00.000Z,Yulman Stadium,Tulane,South Alabama,37,17,New Orleans,LA,29.944616,-90.116692,29.1,0.0,11.7
+401520166,2023,1,2023-09-03T01:00:00.000Z,Aggie Memorial Stadium,New Mexico State,Western Illinois,58,21,Las Cruces,NM,32.2796202,-106.7411148,33.4,0.0,4.7
+401520177,2023,1,2023-09-03T01:00:00.000Z,Sun Bowl,UTEP,Incarnate Word,28,14,El Paso,TX,31.7733353,-106.507957,34.2,0.0,17.6
+401523989,2023,1,2023-09-03T02:00:00.000Z,Arizona Stadium,Arizona,Northern Arizona,38,3,Tucson,AZ,32.2288054,-110.9488677,29.5,0.0,15.0
+401550329,2023,1,2023-09-03T02:00:00.000Z,Hanson Stadium,Pacific (OR),Chapman,0,0,Forest Grove,OR,45.5197452,-123.1114405,24.0,0.0,10.2
+401520152,2023,1,2023-09-03T02:15:00.000Z,LaVell Edwards Stadium,BYU,Sam Houston,14,0,Provo,UT,40.2575347,-111.6545247,21.2,0.0,4.0
+401532571,2023,1,2023-09-03T02:30:00.000Z,Snapdragon Stadium,San Diego State,Idaho State,36,28,San Diego,CA,32.784444,-117.122833,22.6,0.0,13.0
+401523995,2023,1,2023-09-03T02:30:00.000Z,Rose Bowl,UCLA,Coastal Carolina,27,13,Pasadena,CA,34.1613284,-118.1676462,21.9,0.0,5.6
+401520171,2023,1,2023-09-03T16:00:00.000Z,SHI Stadium,Rutgers,Northwestern,24,7,Piscataway,NJ,40.5462553,-74.4660408,30.3,0.0,10.2
+401540148,2023,1,2023-09-03T19:00:00.000Z,Hard Rock Stadium,Florida A&M,Jackson State,28,10,Miami Gardens,FL,25.9579665,-80.2388604,30.6,0.0,20.0
+401532573,2023,1,2023-09-03T19:30:00.000Z,CEFCU Stadium,San José State,Oregon State,17,42,San Jose,CA,37.3196675,-121.8682962,23.0,0.0,15.9
+401540667,2023,1,2023-09-03T20:00:00.000Z,Tom Benson Hall of Fame Stadium,Morehouse College,Virginia Union,13,45,Canton,OH,40.7985464,-81.3749508,30.5,0.0,15.0
+401547061,2023,1,2023-09-03T23:00:00.000Z,Cramton Bowl,Tuskegee,Fort Valley State,37,31,Montgomery,AL,32.37949,-86.293002,30.5,0.0,5.3
+401520182,2023,1,2023-09-03T23:30:00.000Z,Camping World Stadium,Florida State,LSU,45,24,Orlando,FL,28.539167,-81.402778,28.1,0.0,14.6
+401525468,2023,1,2023-09-05T00:00:00.000Z,Wallace Wade Stadium,Duke,Clemson,28,7,Durham,NC,35.9953688,-78.9417564,26.8,0.0,5.9
