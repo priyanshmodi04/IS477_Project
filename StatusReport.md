@@ -199,7 +199,7 @@ We expanded the replicability and automation aspects of the project:
 
 ### Priyansh Modi
 
-Priyansh’s main contributions involved **data collection, storage, and integration**:
+main contributions involved **data collection, storage, and integration**:
 
 - Implemented and refined the CollegeFootballData and Open-Meteo API scripts, including handling parameters and rate limits.
 - Established the raw vs. intermediate storage layout and helped define the directory structure and file naming conventions.
@@ -208,7 +208,7 @@ Priyansh’s main contributions involved **data collection, storage, and integra
 
 ### Shivam Patel
 
-Shivam’s main contributions involved **feature selection, validation, exploratory analysis, and documentation**:
+main contributions involved **feature selection, validation, exploratory analysis, and documentation**:
 
 - Wrote and refined selection scripts that determine key football variables (e.g., turnovers, total score) and weather variables (e.g., temperature, precipitation), including some derived values.
 - Constructed an early version of the integrated tables and validated the joined dataset using Jupyter notebooks to check that weather values made sense for sampled games.
