@@ -3,7 +3,7 @@
 **Course:** IS 477 Team Project  
 **Team Members:** Priyansh Modi and Shivam Patel  
 
----
+
 
 ## Project Overview
 
@@ -11,7 +11,7 @@ This team project attempts to understand the relationship between weather and on
 
 The project follows a full data lifecycle (acquisition, storage, integration, quality control, analysis, and reproducibility). This report summarizes the status of each planned task, provides an updated timeline, documents revisions to the plan, and describes what each team member has contributed so far.
 
----
+
 
 ## Status by Task (Compared to Planned Schedule)
 
@@ -21,9 +21,9 @@ We chose to work within the **Data Curation Lifecycle** model and documented our
 
 We implemented a Python script to acquire game data and stadium location information from the CollegeFootballData API, and to sample weather data from the Open-Meteo API. Responses are stored in a `data/raw` directory, and we created short notes describing which endpoint we used for each component.  
 
-**Status:** Completed.
 
----
+
+
 
 ### Week 3: Storage, Organization, and Feature Extraction
 
@@ -39,7 +39,7 @@ These are stored in concise CSVs. A merged file was also created that provides l
 
 **Status:** Mostly completed (feature definitions may still be refined).
 
----
+
 
 ### Week 4: Integration and Provenance
 
@@ -60,7 +60,7 @@ A CSV file has also been created to guide handling of missing values.
 
 **Status:** In progress.
 
----
+
 
 ### Week 5: Quality and Cleaning
 
@@ -76,7 +76,7 @@ From here, we need to establish a consistent approach for filling in or disregar
 
 **Status:** Partially completed.
 
----
+
 
 ### Week 6: Pre-Analysis, Exploratory Analysis, and Automation
 
@@ -96,7 +96,7 @@ Next steps include:
 
 **Status:** In progress.
 
----
+
 
 ### Weeks 7–9: Pending Work
 
@@ -111,7 +111,6 @@ Remaining work includes:
 
 **Status:** Planned.
 
----
 
 ## Updated Project Timeline and Task Progress
 
@@ -161,7 +160,6 @@ Below is our updated view of key tasks, their current status, and anticipated co
   - Status: Not started  
   - Target: Week 9 (with final tagging and release)
 
----
 
 ## Changes to the Project Plan
 
@@ -196,7 +194,6 @@ We expanded the replicability and automation aspects of the project:
 - We began sketching a simple workflow diagram that will be turned into a figure for our documentation.
 - Time permitting, we may adopt a more formal workflow tool, but even if we stay with Python scripts, our goal is a clear, well-documented path from raw data to analysis-ready files and visualizations.
 
----
 
 ## Individual Contributions for This Milestone
 
