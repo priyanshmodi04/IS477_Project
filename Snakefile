@@ -7,7 +7,16 @@ rule all:
         "results/data_quality_summary.csv",
         "results/points_vs_temp.png",
         "results/points_vs_temp_stats.csv",
-        "results/temp_vs_points_regression.png"
+        "results/temp_vs_points_regression.png",
+        "results/data_checksums.txt"
+
+rule checksums:
+    input:
+        "data/processed/games_with_weather.csv"
+    output:
+        "results/data_checksums.txt"
+    shell:
+        "python code/checksums.py"
 
 
 # build the integrated games + weather dataset
